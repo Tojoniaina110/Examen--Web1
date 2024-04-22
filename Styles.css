@@ -7,34 +7,49 @@
 body {
     width: 100% ;
     height: 100px ;
+    background-color: black;
 
 }
 
 header {
-    color: rgb(255, 255, 255) ;
-    height: 20vh ; 
+    color: rgb(0, 0, 0) ;
+    height: 15vh ;
+    background-color: #fff;
+    
+}
+
+.head_container h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 13%;
+    top: 2rem;
+
+
 }
 
 .inscription{
     padding: 0.5rem ;
-    margin-left: 70rem ;
-    margin-top: 3rem ;
-    color: white ;
+    color: rgb(0, 0, 0) ;
     background-color: transparent;
     border-radius: 8px ;
     opacity: 0.5 ;
+    position: absolute;
+    left: 77%;
+    top: 2.5rem;
     
 }
 
 .title {
-    margin-left:10rem ;
+    position: absolute;
+    top: 6em;
+    left: 7em;
     font-size: 30px ;
 }
 
-h1 {
+.main_container h1 {
     color: white ;
     border-left: 4px white solid ;
-    text-shadow: 2px 2px 5px rgb(223, 90, 42)  ;
     font-family: cursive ;
     border-left-style: solid ;
     letter-spacing: 5px ;
@@ -42,20 +57,25 @@ h1 {
 }
 
 #btn_1 {
-    margin-top: 3.5rem ;
-    margin-left: 15rem ;
+    position: absolute;
+    top: 27em;
+    left: 15em;
     padding: 1.5rem ;
     font-size: 15px ;
-    background-color: rgb(223, 90, 42) ;
+    background-color: rgb(11, 71, 173) ;
+    cursor: pointer;
     color: white ;
     border: none ;
     border-radius: 8px ;
+    transition: 0.7s linear ;
+    
 }
 
 
 #btn_1:hover {
-    color:rgb(253, 96, 38) ;
+    color:rgb(15, 71, 167) ;
     background-color: white ;
+    
 }
 
 .card_container {
