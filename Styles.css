@@ -17,7 +17,7 @@
 body {
     width: 100% ;
     height: 100vh ;
-    background-image: url('./Photos/pexels-gantas-5956910.jpg');
+    background-image: url('./Photos/golden-chess-queen-shines-blurred-board.jpg');
     background-size: cover;
 }
 
@@ -36,7 +36,7 @@ header {
 }
 
 em {
-    color:rgb(11, 71, 173) ; ;
+  color:rgb(11, 71, 173) ; ;
 }
 
 .inscription{
@@ -138,42 +138,23 @@ em {
     margin: 3.5em;
 }
 
-footer {
+
+.footer {
     display: flex;
     flex-direction: row;
-}
-
-.contact {
-    width: 100%;
-    height: 30vh;
-    background-color: black;
-    
-}
-
-.contact h1 {
-    color: white;
-    font-family:Quicksand;
-    font-size: 40px;
-    margin-left: 2em;
-}
-
-.join {
-    color: white;
-    margin-top: 2.5em ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 7em;
-    font-size: 15px;
-}
-
-#mail:hover {
-    text-decoration: underline;
-    color: rgb(15, 71, 167) ;;
-}
-#phone:hover {
-    text-decoration: underline;
-    color: rgb(15, 71, 167) ;;
-}
-
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    color: white !important;
+    font-family:'Montserrat' ;
+    background-color: black !important;
+    height: 40vh !important;
+  }
+  
+  .suggestion {
+    margin-block: 4vh;
+    font-family:'Montserrat' ;
+  
+  }
 
 
 

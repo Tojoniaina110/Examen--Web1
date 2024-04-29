@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family:'Montserrat';
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
     font-family: Jersey;
     src: url('./fonts/Jersey25-Regular.ttf');
 }
@@ -58,6 +63,7 @@
     background-size: cover;
     width: 100%;
     height: 50vh;
+   
 
   }
 
@@ -91,8 +97,67 @@
 
   .card1, .card2, .card3 {
     border: 3px solid white ;
-    box-shadow:  0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow:  0 0 7px rgba(0, 0, 0, 0.7);
     border-radius: 20px;
     width: 22%;
-    height: 50vh;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
   }
+
+  .card1:hover {
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  .card2:hover {
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.7);
+  }
+
+  
+  .card3:hover {
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.7);
+  }
+
+  .choice_card h3 {
+    margin-block: 1vh;
+    margin-inline: 1.6em;
+    color: rgb(17, 90, 193);
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.temoinage {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20vh;
+}
+
+.photoreal {
+  width: 50%;
+  height: 80vh;
+  background-image: url('./Photos/pexels-mastercowley-2055957.jpg');
+  background-size: cover;
+}
+
+.parole {
+  width: 50%;
+  height: 80vh;
+  background-color: blueviolet;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  color: white !important;
+  font-family:'Montserrat' ;
+  background-color: black !important;
+  height: 40vh !important;
+}
+
+.suggestion {
+  margin-block: 4vh;
+  font-family:'Montserrat' ;
+
+}
