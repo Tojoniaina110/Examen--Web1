@@ -10,53 +10,32 @@
 }
 
 @font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
     font-family: Quicksand;
     src: url('./fonts/Quicksand-VariableFont_wght.ttf');
 }
 
-body {
-    width: 100% ;
-    height: 100vh ;
-    background-image: url('./Photos/golden-chess-queen-shines-blurred-board.jpg');
-    background-size: cover;
-}
-
 header {
     color: #fff;
-    height: 15vh ;
-    
+    height: 110vh ;
+    background-image: url('./Photos/golden-pawn-chess-move-out-from-line-different-thinking-leading-change-disruption-unique-concept-by-3d-render.jpg');
+    background-size: cover;
 }
 
 .logo h2 {
     font-family: 'Jersey';
     font-size: 45px;
     margin-left: 4.5em;
-    margin-top: 1.2em;    
+   padding-top: 1em;
 
 }
 
 em {
   color:rgb(11, 71, 173) ; ;
-}
-
-.inscription{
-    padding: 0.9rem ;
-    margin-left: 79em;
-    position: relative;
-    bottom: 3.9em;
-    color: rgb(255, 255, 255) ;
-    background-color:rgb(11, 71, 173) ;
-    border-style: none;
-    border-radius: 10px;
-    cursor: pointer;
-
-    
-}
-
-.inscription:hover {
-    color: rgb(11, 71, 173);
-    background-color: #fff;
-    transition: 400ms linear ;
 }
 
 .title {
@@ -121,19 +100,20 @@ em {
     width: 100%;
     background-color: rgb(0, 0, 0);
     height: 85vh;
+    color: rgb(255, 255, 255) !important;
 }
 
 .title_2 {
-    color: rgb(255, 252, 252);
+    color: rgb(255, 255, 255);
     font-size: 20px ;
     font-family: Quicksand;
-    margin-top: 10em;
     margin-left: 5em ;
+    padding-top: 5em;
 }
 
 .texto p {
-    color: white;
-    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 31px;
     font-family:monospace;
     margin: 3.5em;
 }
@@ -143,11 +123,11 @@ em {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5vh;
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     font-family:'Montserrat' ;
-    background-color: black !important;
+    background-color: rgb(125, 116, 116) !important;
     height: 40vh !important;
+    cursor: pointer !important;
   }
   
   .suggestion {
