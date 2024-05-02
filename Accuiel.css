@@ -22,7 +22,7 @@
     align-items: center;
     height: 8vh;
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: #1e1d1d;
 
   }
@@ -41,6 +41,8 @@
     
   }
 
+  
+
   .liste  {
     list-style: none;
     margin-left: 18em;
@@ -50,6 +52,7 @@
     font-size: 20px;
     text-decoration: none;
     
+    
   }
 
   .liste a {
@@ -57,25 +60,34 @@
     margin-right: 10em;
     color: black;   
     font-family: Arial, Helvetica, sans-serif;
+    
   }
 
   .defiller  {
-    
-    background-image: url('./Photos/pexels-bri-schneiter-28802-346529.jpg');
+    background-image: url('./Photos/love-yourself-self-acceptance-gentle-lovely-afro-american-woman-crosses-hands-embraces-own-body-tilts-head-closes-eyes.jpg');
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 80vh;
    
 
   }
 
   .defiller h1 {
-    text-align: center;
+    
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5vh 0;
-    color: white ;
+    margin-left: 5em;
+    color: rgb(1, 1, 1) ;
 
+  }
+
+  .defiller p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3em;
+    color: white;
+    letter-spacing: 4px;
   }
 .service h6 {
   text-align: center;
@@ -88,6 +100,84 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+.btn_join {
+  padding: 1em;
+  color: white;
+  background-color: rgba(6, 75, 164, 0.866);
+  font-family: Arial, Helvetica, sans-serif;
+  border: none !important;
+  font-weight: bold;
+  border-radius: 10px;
+
+  }
+
+  
+.btn_join:hover {
+  background-color: #c4c1c1;
+  color:  rgba(6, 75, 164, 0.866);
+  border: 1px solid   rgba(6, 75, 164, 0.866);
+}
+
+
+
+.parole p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  padding: 2em;
+
+}
+
+.btn2 {
+  padding-inline: 3em;
+  padding-block: 3vh;
+  background-color:rgb(30, 90, 194);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  margin-left: 15em;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+}
+
+.btn2:hover {
+  background-color: rgb(4, 70, 184);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  color: rgb(0, 0, 0) !important;
+  font-family:'Montserrat' ;
+  background-color: rgb(125, 116, 116);
+  height: 40vh !important;
+}
+
+.suggestion {
+  margin-block: 4vh;
+  font-family:'Montserrat' ;
+
+}.card1 .btn_join {
+  margin-left: 8em;
+  margin-top:3em;
+
+}
+.card2 .btn_join {
+  margin-left: 9em;
+  margin-top:-8em;
+
+}
+.card3 .btn_join {
+  margin-left: 10em;
+  margin-top:-9em;
+
+}
 
   .choice_card {
     display: flex;
@@ -154,30 +244,211 @@
 
 .photoreal {
   width: 50%;
-  height: 80vh;
+  height: 60vh;
   background-image: url('./Photos/pexels-mastercowley-2055957.jpg');
   background-size: cover;
 }
 
+.photoreal img {
+  margin-top: 2em;
+  margin-left: 19em;
+}
+
 .parole {
   width: 50%;
-  height: 80vh;
-  background-color: blueviolet;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+}
+.parole h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 412px) {
+  .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #1e1d1d;
+    max-width: 100%;
+    overflow-x: hidden; 
+}
+
+.container h1 {
+    font-family: 'Montserrat';
+}
+
+em {
+    color: rgb(11, 71, 173);
+}
+
+.logo {
+    font-size: 20px;
+    color: black;
+}
+
+.liste {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.liste a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.defiller {
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.defiller h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5vh 0;
+    margin: 0 auto; /
+    text-align: center; 
+    color: rgb(1, 1, 1);
+}
+
+.defiller p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3em;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.service h6 {
+    text-align: center;
+    padding-top: 7vh;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn_join {
+    padding: 1em;
+    color: white;
+    background-color: rgba(6, 75, 164, 0.866);
+    font-family: Arial, Helvetica, sans-serif;
+    border: none !important;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn_join:hover {
+    background-color: #c4c1c1;
+    color: rgba(6, 75, 164, 0.866);
+    border: 1px solid rgba(6, 75, 164, 0.866);
+}
+
+.choice_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+}
+
+.card1,
+.card2,
+.card3 {
+    border: 3px solid white;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 300px; 
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-right: 10px; 
+}
+
+.choice_card h3 {
+    margin-block: 1vh;
+    margin-inline: 1.6em;
+    color: rgb(17, 90, 193);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.temoinage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.photoreal,
+.parole {
+    width: 100%; 
+    height: 60vh;
+}
+
+.photoreal img {
+    margin-top: 2em;
+    margin: 0 auto;
+    display: block;
+}
+
+.parole h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.parole p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding: 2em;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    background-color: rgb(30, 90, 194);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    margin: 20px auto; 
+    display: block; 
+    cursor: pointer;
+    transition: transform 0.5s linear;
+}
+
+.btn2:hover {
+    background-color: rgb(4, 70, 184);
 }
 
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-  color: rgb(0, 0, 0) !important;
-  font-family:'Montserrat' ;
-  background-color: rgb(125, 116, 116);
-  height: 40vh !important;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Montserrat';
+    background-color: rgb(125, 116, 116);
+    height: auto; 
+    padding: 20px 0; 
 }
 
 .suggestion {
-  margin-block: 4vh;
-  font-family:'Montserrat' ;
+    margin-block: 4vh;
+    font-family: 'Montserrat';
+}
 
 }
